@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de"> 
+    <head>
+        <title> Hotel GmbH </title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="top-container">
+            <h1>Hotel GmbH</h1>
+        </div>
+        <div class="header" id="myHeader">
+            <div id="navigation">
+                <ul>
+                    <a href="#zimmer">Zimmer</a>
+                    <a href="#food">Essen & Trinken</a>
+                    <a href="#freizeit">Freizeit</a>
+                    <a href="#hotel">Das Hotel</a>
+                    <a href="">Anmelden</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <section id="zimmer">
+                <h2>Zimmer</h2>
+                <option class="hotel-no" value="0" selected="selected" disabled="disabled">
+                    Bitte wählen Sie ein Zimmer aus : 
+                </option>
+                
+                    <div class="standard">
+                        <img src="standard.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Standard Zimmer</summary>
+                                <p>King - oder Queensize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimaanlage </p> <br>   
+                         <button class="button">Zimmer auswählen</button>   
+                        </details>
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="comfortq.jpg">
+                        <div class="standard-s">
+                          <details>
+                           <summary>Comfort Queen(size) Zimmer</summary> 
+                           <p>Queensize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalage <br> Meerblick </p>
+                           <button class="button">Zimmer auswählen</button>  
+                        </details>
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="comfortk.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Comfort King(size) Zimmer</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalage <br> seitlicher Meerblick</p>
+                            <button class="button">Zimmer auswählen</button>  
+                        </details>
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="comfortp.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Comfort Plus Zimmer</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalange <br> seitlicher Meerblick</p>
+                            <button class="button">Zimmer auswählen</button>  
+                        </details>
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="superior.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Superior Zimmer</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalange <br> seitlicher Meerblick</p>
+                            <button class="button">Zimmer auswählen</button>
+                        </details>  
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="deluxe.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Deluxe Zimmer</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalange <br> direkter Meerblick</p>
+                            <button class="button">Zimmer auswählen</button> 
+                        </details> 
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="studio.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Studio</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalange <br> direkter Meerblick</p>
+                            <button class="button">Zimmer auswählen</button>
+                        </details>  
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="suite.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Suite</summary>
+                            <p>Kingsize Bett <br> Kostenfreies WLAN <br> Flatscreen-TV <br> Kühlschrank <br> Klimanalange <br> direkter Meerblick</p>
+                            <button class="button">Zimmer auswählen</button> 
+                        </details> 
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <img src="barrierefrei.jpg">
+                        <div class="standard-s">
+                        <details>
+                            <summary>Barrierefreies Zimmer</summary>
+                            <p>Kingsize Bett  <br> Rolstuhlgerechtes Badezimmer <br> Breite Türen <br> Notrufknöpfe <br> kostenfreies WLAN <br> Flatscreen-TV <br> Klimaanlage</p>
+                            <button class="button">Zimmer auswählen</button>
+                        </details>  
+                        </div>
+
+                    </div>
+            </section>
+            <section id="food">
+                <h2>Essen & Trinken</h2>
+            <div>
+                <h3>Frühstück</h3>
+                <p>Öffnungszeiten: <br> Montag-Freitag von 06:30 bis 08:30 Uhr <br> Samstag-Sonntag von 07:00 bis 09:00 Uhr <br><br>Preise: <br>0-6 Jahre: kostenfrei <br>7-12 Jahre: 11,00 Euro<br>ab 13 Jahren: 22,00 Euro</p>
+                <details>
+                    <summary>zur Menü Auswahl</summary>
+                    <fieldset>
+                        <input type="radio" id="fm" name="früh" value="Frühlingsmenu">
+                        <label for="fm">Frühlingsmenü</label>
+                        <p>Immer lecker, immer gut! Das Frühlingsmenü ist besonders erfrischend und leitet gut in den Tag.</p>
+                        <input type="radio" id="sm" name="speed" value="Speedmenu">
+                        <label for="sm">Speedmenü</label>
+                        <p>Wenns mal schnell gehen soll, ist im Speedmenu trotzdem für alles gesogt!</p>
+                        <input type="radio" id="km" name="klassik" value="Klassikmenu">
+                        <label for="km">Klassikmenü</label>
+                        <p>Im Klassikmenü, ist für jeden was dabei!</p>
+                    </fieldset>
+                    
+                </details>
+           </div> 
+           <div>
+                <h3>Mittag</h3>
+                <p>Öffnungszeiten: <br> Montag-Sonntag von 12:00 bis 15:00 Uhr <br><br> Preise: <br>0-6 Jahre: kostenfrei <br>7-12 Jahre: 15,00 Euro<br>ab 13 Jahren: 25,00 Euro </p>
+                <details>
+                    <summary>zur Menü Auswahl</summary>
+                    <fieldset>
+                        <input type="radio" id="jm" name="jumbo" value="Jumbomenu">
+                        <label for="jm">Jumbomenu</label>
+                        <p>Für absolute Feinschmecker, die Genuss und Leidenschaft kombiniert in ein Festmahl genießen wollen!</p>
+                        <input type="radio" id="rm" name="romantik" value="Romantikmenu">
+                        <label for="rm">Romantikmenü</label>
+                        <p>Das Romantikmenü bietet vollen Genuss bei Candlelight und Blick auf die atemberaubende Skyline unserer Stadt!</p>
+                        <input type="radio" id="km" name="klassik" value="Klassikmenu">
+                        <label for="km">Klassikmenü</label>
+                        <p>Im Klassikmenü, ist für jeden was dabei!</p>
+                    </fieldset>
+                    
+                </details>
+            </div>
+            </section>
+            <section id="freizeit">
+                <h2>Freizeit</h2>
+                <div>
+                    <p>Direkt neben unserem Hotel gibt es für unsere Hotelgäste, ein kostenloses Fitnessstudio:</p>
+                    <img src="fitness.jpg">
+                    <p>unser hoteleigener Pool bietet eine Menge Spaß und reichlich Entspannung!</p>
+                    <img width="500px"; height="300px" src="pool.jpg">
+                </div>
+                <p></p>
+            </section>
+            <section id="hotel">
+                <h2>Das Hotel</h2>
+               
+                <h3>Unser Kontakt</h3>
+                <p>Tel.: 0156976723558 <br> E-Mail: hotel@hotel-gmbh.com</p>
+                Hotel GmbH <br>
+                Am Hotel 1 <br>
+                27572 Bremerhaven
+            </section>
+        </div>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+
+        <div id="footer">
+            Copyright 2021 | Hotel GmbH
+
+        </div>
+    </body>
+</html>
+
